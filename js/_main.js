@@ -268,7 +268,7 @@ $('.addtocalendar .btn-primary').on('click touchstart touchend', function(e){
 
 
 function initialize() {
-    var myLating = new google.maps.LatLng(44.398815, 26.143223);
+    var myLating = new google.maps.LatLng(49.2332605, 28.4672895);
         var mapOptions = {
             zoom: 15,
             center: myLating,
