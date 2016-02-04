@@ -289,12 +289,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /* Countdown */  
 
-     $('.countdown').countdown('2017/11/11', function(event) { // <<----- Change the date of the event here here
+     $('.countdown').countdown('2016/06/25 21:00:01', function(event) { // <<----- Change the date of the event here here
        var $this = $(this).html(event.strftime(''
-        + '<div class="timer"><ul class="date"><li>%M<li class="resp">M</li><li>Months</li></ul>'
-        + '<ul class="date"><li>%d<li class="resp">D</li><li>Days</li></ul>'
+        + '<div class="timer"><ul class="date"><li>%m<li class="resp">m</li><li>Months</li></ul>'
+        + '<ul class="date"><li>%d<li class="resp">d</li><li>Days</li></ul>'
         + '<ul class="date"><li>%H<li class="resp">H</li><li>Hours</li></ul>'
-        + '<ul class="date"><li>%m<li class="resp">M</li><li>Minutes</li></ul>'
+        + '<ul class="date"><li>%M<li class="resp">M</li><li>Minutes</li></ul>'
         + '<ul class="date"><li>%S<li class="resp">S</li><li>Seconds</li></ul></div>'));
      });
 
