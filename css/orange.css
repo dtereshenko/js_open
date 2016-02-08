@@ -58,6 +58,10 @@ ul.social-media li:hover, .open > .dropdown-toggle.btn-primary, .btn-primary:hov
 	border-right-color: #FF8100; /* Schedule arrow color */
 }
 
+.panel-schedule-cols .content-s:before {
+    background-color: #FF8100; /* MAIN COLOR */
+}
+
 .social-media li.facebook,
 .social-media li.pinterest {
     background-color: #7be651; /* social media color - lightest color */

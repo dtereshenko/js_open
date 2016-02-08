@@ -649,7 +649,7 @@ Schedule
 
 .content-s {
     width: 100%;
-    display: inline-block;
+    display: block;
     background-color: #f0efef;
     padding: 20px 20px 20px 140px;
 }
@@ -670,6 +670,72 @@ Schedule
     color: #343439; 
 }
 
+/*=======================
+Schedule  Cols
+=======================*/
+.panel-schedule-cols .col {
+    text-align: left;
+}
+
+.panel-schedule-cols .col:first-of-type:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 5px;
+    right: -2px;
+    top: -10px;
+    bottom: -10px;
+    background-color: #fff;
+}
+
+.panel-schedule-cols .time-s > span {
+    width: 80px;
+    padding-right: 15px;
+}
+
+.panel-schedule-cols .content-s {
+    text-align: center;
+    padding: 10px 15px 10px 80px;
+}
+.panel-schedule-cols .panel-body {
+    padding-left: 70px;
+    font-size: 14px;
+}
+
+.panel-schedule-cols .content-s .title-s {
+    font-size: 16px;
+    line-height: 1;
+}
+.panel-schedule-cols .content-s .aut-s {
+    line-height: 1.5;
+}
+.panel-schedule-cols .time-s {
+    line-height: 30px;
+    height: auto;
+    margin-top: -17px;
+    z-index: 2;
+}
+.panel-schedule-cols .content-s {
+    position: relative;
+}
+
+.panel-schedule-cols .content-s:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+}
+.panel-schedule-cols .time-s > span > span {
+    top: -2px;
+}
+
+.panel-schedule-cols .panel-cb .content-s .title-s {
+    color: #8e8e8e;
+    font-weight: normal;
+    font-style: italic;
+}
 /*=======================
 SPEAKERS
 =======================*/
